@@ -1,0 +1,73 @@
+.back{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url(main-screen__bgc.png);
+    mix-blend-mode: hard-light;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-size: cover;
+    padding-left: 15px;
+    bottom: 23px;
+    z-index: 0;
+}
+.glavn{
+    width: 877px;
+    height: 640px;
+    left: 535px;
+    top: 97px;
+    background: rgba(233, 233, 233, 0.25);
+    backdrop-filter: blur(3.5px);
+    border-radius: 50px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.game_PC{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px;
+}
+.game_PC>h1{
+    position: absolute;
+    top: 10px;
+}
+.proekt_button{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    color: rgba(223, 89, 80, 0.75);
+    position: absolute;
+    width: 290px;
+    height: 60px;
+    background: rgba(51, 51, 51, 0.75);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: auto;
+    bottom: 20px;
+    left: 294px;
+
+}
+.logo_glav{
+    width: 130px;
+    height: 130px;
+}
+.PC_back{
+    position: absolute;
+    width: 390px;
+    height: 371px;
+    left: 1005px;
+    top: 333px;
+}
+.Block_ikPC{
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Block_ikPC>img{
+    width: 400px;
+}

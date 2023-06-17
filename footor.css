@@ -1,0 +1,65 @@
+.back_foot{
+    display: flex;
+    position: relative;
+    top: 3083px;
+    background: #2e2b2b;
+    justify-content: center;
+}
+.foot_box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1303px;
+    height: auto;
+    top: 35px;
+    background: rgba(217, 217, 217, 0.25);
+}
+.foot_box>h2{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: justify;
+    color: #DA5B54;
+    position: absolute;
+    left: 80px;
+}
+.foot_box>img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 15px;
+    
+}
+.ikon_messeng{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 1200px;
+    bottom: 100px;
+}
+.telef{
+    margin-left: 20px;
+    margin-right: auto;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: justify;
+    color: rgba(228, 212, 212, 0.55);
+}
+.vk_id{
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: justify;
+    color: rgba(228, 212, 212, 0.55);
+}
